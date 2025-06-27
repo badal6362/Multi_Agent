@@ -1,0 +1,6 @@
+@echo off
+echo Starting Flask backend...
+start cmd /k "E:\multi_agent\.venv\Scripts\python.exe E:\multi_agent\backend\api.py"
+
+echo Starting React frontend...
+start cmd /k "cd /d E:\multi_agent\multi-agent-frontend && npm start"
